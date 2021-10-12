@@ -1,0 +1,23 @@
+- subsets: [['webvision', 7], ['webvision', 2]]
+- subsets: [['webvision', 11], ['webvision', 1]]
+- subsets: [['webvision', 8], ['webvision', 13]]
+- subsets: [['webvision', 3], ['webvision', 0]]
+- subsets: [['webvision', 6], ['webvision', 5]]
+- subsets: [['webvision', 12], ['webvision', 9]]
+- subsets: [['webvision', 4], ['webvision', 10]]
+
+# major 14 classes
+# 0: 412    trash can
+# 1: 480    cash machine
+# 2: 506    spiral
+# 3: 395    garfish
+# 4: 421    bannister
+# 5: 121    king crab
+# 6: 498    cinema
+# 7: 762    restaurant
+# 8: 48     Komodo dragon
+# 9: 896    washbasin
+# 10: 32    frog
+# 11: 414   backpack
+# 12: 147   grey whale
+# 13: 436   wagon

@@ -1,0 +1,13 @@
+numpy
+PyYAML
+scipy
+six
+tensorboardX
+networkx
+tqdm
+torch==1.7.0
+torchvision==0.8.1
+colorful
+colorlog
+Pillow==6.1
+kornia==0.4.1

@@ -1,0 +1,5 @@
+- subsets: [['cifar10', 9], ['cifar10', 1]]
+- subsets: [['cifar10', 2], ['cifar10', 0]]
+- subsets: [['cifar10', 3], ['cifar10', 5]]
+- subsets: [['cifar10', 6], ['cifar10', 8]]
+- subsets: [['cifar10', 4], ['cifar10', 7]]

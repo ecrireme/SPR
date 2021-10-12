@@ -1,0 +1,27 @@
+*.swp
+*.pyc
+.ipynb_checkpoints
+*.tfidf
+.cenv
+.venv
+
+# Ignore data directory
+data
+
+# Ignore checkpoints
+checkpoints
+
+# Ignore run scripts
+# run_script
+
+# ignore slurm outputs
+slurm_outputs
+
+# To ignore images
+*.gif
+*.srt
+*.jpg*
+*.eps
+
+# To ignore tensors
+*.tensors

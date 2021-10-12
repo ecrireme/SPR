@@ -1,0 +1,86 @@
+###########
+# Dataset #
+###########
+data_root: './data'
+batch_size: 10
+num_workers: 16
+eval_batch_size: 256
+eval_num_workers: 4
+batch_iter: 1
+
+nb_classes: 100
+
+# Corruption Parameters
+corruption_percent: 0.2
+superclass_noise: False
+
+x_c: 3
+x_h: 32
+x_w: 32
+y_c: 10
+
+device: 'cuda'
+
+##############
+# SPR params #
+##############
+net: 'resnet_simclr18' 
+
+purified_buffer_size: 5000
+purified_buffer_q_poa: 0.0 # power of allocation
+
+delayed_buffer_size: 1250
+delayed_buffer_q_poa: 0.0 # power of allocation
+
+E_max: 5
+
+expert_train_epochs: 4000
+expert_batch_size: 1250
+
+base_train_epochs: 3000
+base_batch_size: 250
+
+ft_epochs: 50
+ft_batch_size: 16
+
+# NTXENTLoss SimCLRparams
+use_cosine_similarity: True
+temperature: 0.5
+projection_out_dim: 256
+
+#########
+# Train #
+#########
+optimizer:
+  type: Adam
+  options:
+    lr: 0.0003
+
+lr_scheduler:
+  type: CosineAnnealingLR
+  options:
+    eta_min: 0
+    last_epoch: -1
+
+optimizer_ft:
+  type: Adam
+  options:
+    lr: 0.002
+
+lr_scheduler_ft:
+  type: StepLR
+  options:
+    step_size: 300
+    gamma: 0.1
+
+
+clip_grad:
+  type: value
+  options:
+    clip_value: 0.5
+
+########
+# Eval #
+########
+
+eval: True
