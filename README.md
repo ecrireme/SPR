@@ -1,6 +1,6 @@
 # Continual Learning on Noisy Data Streams via Self-Purified Replay
 This repository contains the official PyTorch implementation for our ICCV2021 paper.
-- Chris Dongjoo Kim*, Jinseo Jeong*, Sangwoo Moon, Gunhee Kim. Continual Learning on Noisy Data Streams via Self-Purified Replay. In ICCV, 2021 (* equal contribution).
+- [Chris Dongjoo Kim*](https://cdjkim.github.io/), [Jinseo Jeong*](https://www.jinseo.kr/), [Sangwoo Moon](https://vision.snu.ac.kr/people/sangwoomoon.html), [Gunhee Kim](https://vision.snu.ac.kr/gunhee/). Continual Learning on Noisy Data Streams via Self-Purified Replay. In ICCV, 2021 (* equal contribution).
 
 [[Paper Link]](https://arxiv.org/abs/2110.07735)[[Slides]](resources/slides_full.pdf)[[Poster]](resources/poster.pdf)
 
